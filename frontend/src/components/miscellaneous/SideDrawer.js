@@ -14,7 +14,7 @@ import { ChatState } from '../../Context/ChatProvider';
 import ProfileModal from './ProfileModal';
 import { useHistory } from 'react-router-dom';
 import ChatLoading from '../ChatLoading';
-import UserListItem from '../UserAvatar/UserListItem';
+import UserListItem from '../userAvatar/UserListItem';
 import axios from 'axios';
 import { getSender } from '../../config/ChatLogics';
 import { Effect } from 'react-notification-badge';
